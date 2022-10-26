@@ -26,7 +26,7 @@ public class test
       }
       else
       {
-        switch (ops[i])
+        switch (ops[i].ToUpper())
         {
           case "C": //Remove previous
             {
@@ -56,7 +56,7 @@ public class test
   // "[[[]]]" = valid
 
   //Question Two
-  public bool Valid(String s)
+  public bool Valid(string s)
   {
     int n = -1;
     while (s.Length != n)
